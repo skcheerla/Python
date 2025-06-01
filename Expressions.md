@@ -15,6 +15,16 @@ Here's a breakdown of what constitutes an expression and common types of express
     * `x`, `name`, `total_price`
 * **Operators:** Symbols that perform operations on operands.
     * **Arithmetic Operators:** `+`, `-`, `*`, `/`, `//` (floor division), `%` (modulo), `**` (exponentiation)
+ 
+    * **Comparison (Relational) Operators:** `==` (equal to), `!=` (not equal to), `<`, `>`, `<=`, `>=`
+**Logical Operators:** `and`, `or`, `not`
+**Bitwise Operators:** &, |, ^, ~, <<, >>
+**Assignment Operators:** =, +=, -=, etc. (While assignments themselves are statements, the right-hand side of an assignment is an expression).
+Identity Operators: is, is not
+Membership Operators: in, not in
+Function Calls: Invoking a function, which then returns a value.
+len("Python"), abs(-10), my_function(arg1, arg2)
+Parentheses (): Used to group expressions and control the order of evaluation (operator precedence).
     ...
 
 ## Examples of Expressions:
